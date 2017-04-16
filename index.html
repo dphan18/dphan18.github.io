@@ -10,25 +10,25 @@
     <link rel="mask-icon" sizes="any" href="https://abs.twimg.com/a/1468984401/img/t1/favicon.svg" color="#55acee">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A listing of open source projects from Twitter.">
+    <meta name="description" content="A listing of open source projects from Potato.">
 
-    <meta name="twitter:url" content="https://dphan18.github.io/" />
-    <meta name="twitter:creator" content="@TwitterOSS" />
-    <meta name="twitter:site" content="@TwitterOSS" />
-    <meta name="twitter:title" content="Twitter <3 Open Source" />
-    <meta name="twitter:description" content="A listing of open source projects from Twitter." />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:image" content="https://g.twimg.com/eng/theme/eng-home-open-source.png" />
+    <meta name="dphan18:url" content="https://dphan18.github.io/" />
+    <meta name="dphan18:creator" content="@dphan18OSS" />
+    <meta name="dphan18:site" content="@dphan18OSS" />
+    <meta name="dphan18:title" content="dphan18 <3 Open Source" />
+    <meta name="dphan18:description" content="A listing of open source projects from dphan18." />
+    <meta name="dphan18:card" content="summary" />
+    <meta name="dphan18:image" content="https://g.twimg.com/eng/theme/eng-home-open-source.png" />
   </head>
   <body>
     <div id="wrapper" class="grid clearfix">
       <div id="main" class="grid-1">
-        <div id="logo"><h1>Twitter Open Source</h1></div>
+        <div id="logo"><h1>dphan18 Open Source</h1></div>
         <h1>This is my personal website</h1>
-        <p>Want to help? <a href="https://twitter.com/jobs/engineering">wow</a></p>
-        <p>More about <a href="https://engineering.twitter.com/">Potato Engineering</a></p>
+        <p>Want to help? <a href="https://dphan18.com/jobs/engineering">wow</a></p>
+        <p>More about <a href="https://engineering.dphan18.com/">Potato Engineering</a></p>
         <p>&nbsp;</p>
-        <p><a href="https://brand.twitter.com/">Logos and other goodies</a></p>
+        <p><a href="https://brand.dphan18.com/">Logos and other goodies</a></p>
       </div>
 
       <div class="grid grid-3">
@@ -39,7 +39,7 @@
             <br>
             <a href="https://github.com/dphan18?tab=members"><span id="num-members"><img src="assets/spinner.gif" /></span> members</a>
           </p>
-          <p class="email"><a href="mailto:opensource@twitter.com">opensource@twitter.com</a></p>
+          <p class="email"><a href="mailto:opensource@dphan18.com">opensource@dphan18.com</a></p>
         </div>
 
         <div id="recently-updated" class="grid-2 omega header">
@@ -70,25 +70,25 @@
 
       // Put custom repo URL's in this object, keyed by repo name.
       var repoUrls = {
-        "twemoji": "http://twitter.github.io/twemoji/",
-        "finagle": "http://twitter.github.io/finagle/",
-        "hogan.js": "http://twitter.github.io/hogan.js/",
+        "twemoji": "http://dphan18.github.io/twemoji/",
+        "finagle": "http://dphan18.github.io/finagle/",
+        "hogan.js": "http://dphan18.github.io/hogan.js/",
         "heron": "http://heronstreaming.io/",
         "distributedlog": "http://distributedlog.io/",
-        "labella.js": "http://twitter.github.io/labella.js/",
+        "labella.js": "http://dphan18.github.io/labella.js/",
         "pants": "http://pantsbuild.github.io/",
-        "scala_school": "http://twitter.github.io/scala_school/",
-        "finatra": "https://twitter.github.io/finatra/",
-        "twitter-server": "http://twitter.github.io/twitter-server/",
-        "twisitor": "http://twitter.github.io/twisitor/",
-        "scrooge": "http://twitter.github.io/scrooge/",
-        "util": "http://twitter.github.io/util/",
-        "commons": "http://twitter.github.io/commons/",
-        "typeahead.js": "http://twitter.github.io/typeahead.js/",
-        "plumage.js": "http://twitter.github.io/plumage.js/",
-        "recess": "http://twitter.github.io/recess/",
-        "iago": "http://twitter.github.io/iago/",
-        "ospriet": "http://twitter.github.io/ospriet/"
+        "scala_school": "http://dphan18.github.io/scala_school/",
+        "finatra": "https://dphan18.github.io/finatra/",
+        "dphan18-server": "http://dphan18.github.io/dphan18-server/",
+        "twisitor": "http://dphan18.github.io/twisitor/",
+        "scrooge": "http://dphan18.github.io/scrooge/",
+        "util": "http://dphan18.github.io/util/",
+        "commons": "http://dphan18.github.io/commons/",
+        "typeahead.js": "http://dphan18.github.io/typeahead.js/",
+        "plumage.js": "http://dphan18.github.io/plumage.js/",
+        "recess": "http://dphan18.github.io/recess/",
+        "iago": "http://dphan18.github.io/iago/",
+        "ospriet": "http://dphan18.github.io/ospriet/"
       };
 
       function repoUrl(repo) {
@@ -139,7 +139,7 @@
         repos = repos || [];
         page = page || 1;
 
-        var uri = "https://api.github.com/orgs/twitter/repos?callback=?"
+        var uri = "https://api.github.com/orgs/dphan18/repos?callback=?"
                 + "&per_page=100"
                 + "&page="+page;
 
@@ -195,11 +195,11 @@
       }
       addRepos();
 
-      //get total number of Twitter members
+      //get total number of dphan18 members
       function getNumMembers(page, numMembers) {
         var page = page || 1;
         var numMembers = numMembers || 0;
-        var membersUri = "https://api.github.com/orgs/twitter/members?callback=?"
+        var membersUri = "https://api.github.com/orgs/dphan18/members?callback=?"
           + "&per_page=100"
           + "&page="+page;
 
