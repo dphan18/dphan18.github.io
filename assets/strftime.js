@@ -1,10 +1,3 @@
-/// strftime
-/// https://github.com/samsonjs/strftime
-/// @_sjs
-///
-/// Copyright 2010 - 2011 Sami Samhuri <sami.samhuri@gmail.com>
-/// MIT License
-
 ;(function() {
 
   //// Export the API
