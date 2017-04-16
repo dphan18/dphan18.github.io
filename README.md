@@ -1,7 +1,7 @@
 twitter.github.com
 ======
 
-The source code of http://twitter.github.io/
+The source code of http://dphan18.github.io
 
 LICENSE
 ------------
