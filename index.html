@@ -1,307 +1,400 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
+<!-- saved from url=(0043)http://getbootstrap.com/examples/jumbotron/ -->
+<html lang="en"><head>
+<script src="//cdn.optimizely.com/js/1141215513.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
 
-<html>
-  <head>
-    <title>Daniel Phan</title>
-    <link rel="stylesheet" type="text/css" href="assets/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/grid.css">
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-    <link href="//abs.twimg.com/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon">
-    <link rel="mask-icon" sizes="any" href="https://abs.twimg.com/a/1468984401/img/t1/favicon.svg" color="#55acee">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A listing of open source projects from Potato.">
+<title>IBM @ Github</title>
 
-    <meta name="dphan18:url" content="https://dphan18.github.io/" />
-    <meta name="dphan18:creator" content="@dphan18OSS" />
-    <meta name="dphan18:site" content="@dphan18OSS" />
-    <meta name="dphan18:title" content="dphan18 <3 Open Source" />
-    <meta name="dphan18:description" content="A listing of open source projects from dphan18." />
-    <meta name="dphan18:card" content="summary" />
-    <meta name="dphan18:image" content="https://g.twimg.com/eng/theme/eng-home-open-source.png" />
-  </head>
-  <body>
-    <div id="wrapper" class="grid clearfix">
-      <div id="main" class="grid-1">
-        <div id="logo"><h1>dphan18 Open Source</h1></div>
-        <h1>This is my personal website</h1>
-        <p>Want to help? <a href="https://dphan18.com/jobs/engineering">wow</a></p>
-        <p>More about <a href="https://engineering.dphan18.com/">Potato Engineering</a></p>
-        <p>&nbsp;</p>
-        <p><a href="https://brand.dphan18.com/">Logos and other goodies</a></p>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="./css/style.css" rel="stylesheet">
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga'); 
+
+ga('create', 'UA-41146412-2', 'ibm.github.io');
+ga('send', 'pageview');
+
+</script>
+<link rel="icon" href="http://ibm.github.io/favicon.ico" type="image/vnd.microsoft.icon" />
+</head>
+<body style="">
+
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="http://www.ibm.com"><img src="images/ibmneg_white_42x20.png" alt="IBM"></a>
+      <!--a class="navbar-brand" style="float: right" href="http://www.ibm.com/developerworks"><img src="images/dWmark.png" alt="DW"></a-->
+      <a id="dw-nav" class="navbar-brand" style="float: right" href="http://www.ibm.com/developerworks" title="developerWorks"><span class="dw-logo-IBM">IBM</span>&nbsp;<span class="dw-logo-d">d</span><span class="dw-logo-W">W</span></a>
+      <div class="navbar-header">
       </div>
-
-      <div class="grid grid-3">
-        <div id="statistics" class="grid-1 alpha header">
-          <h1>Statistics</h1>
-          <p>
-            <a href="https://github.com/dphan18/repositories"><span id="num-repos"><img src="assets/spinner.gif" /></span> public repos</a>
-            <br>
-            <a href="https://github.com/dphan18?tab=members"><span id="num-members"><img src="assets/spinner.gif" /></span> members</a>
-          </p>
-          <p class="email"><a href="mailto:opensource@dphan18.com">opensource@dphan18.com</a></p>
-        </div>
-
-        <div id="recently-updated" class="grid-2 omega header">
-          <h1>Recently updated <a href="https://github.com/dphan18/repositories">View All on GitHub</a></h1>
-          <ol id="recently-updated-repos"></ol>
-        </div>
-      </div>
-
-      <ol id="repos"></ol>
     </div>
+  </div>
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1>IBM Open Source at GitHub</h1>
+      <div class="leadspace-buttons">
+        <a href="http://hub.jazz.net/" data-analytics-category="Leadspace buttons" data-analytics-action="JazzHub">
+          <p class="btn btn-primary btn-lg btn-custom-jazz">Enhance your GitHub experience with <b>Bluemix DevOps Services</b>
+          </p>
+         </a>
+	     <a href="https://www.bluemix.net/" data-analytics-category="Leadspace buttons" data-analytics-action="BlueMix">
+	            <p class="btn btn-primary btn-lg btn-custom-bm">Deploy your application to <b>Bluemix cloud platform</b></p>
+	     </a>
+         <a href="http://developer.ibm.com/open" data-analytics-category="Leadspace buttons" data-analytics-action="developerWorks Open">
+              <p class="btn btn-primary btn-lg btn-custom-dw">Engage with IBM Open Source <b>developerWorks Open</b>
+              </p>
+         </a>
+        </div>
+      </div>
+    </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+             <div id="wrapper">
+              <label for="search" class="col-lg-4 control-label search" style=""><span>Search</span> <input type="search" id="search" class="search-query span3 filter input-medium" placeholder="Our Repos..."></label>
+              
+              <div id="repos" class="columns collapse-group">
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <p>© IBM 2013-<span id="copyright-last-year">2016</span></p>
+    </div>
+  </footer>
+</div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/strftime.js"></script>
+    <script type="text/javascript" src="orgs.js"></script>
     <script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-39101739-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-    </script>
-    <script type="text/javascript" src="assets/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="assets/strftime.js"></script>
-    <script type="text/javascript">
+    
+    var updated = [];
+    var allrepos = [];
+    
+    // go to http://thissite.example.com/#DEBUG to set DEBUG=true
+    var DEBUG = (window.location.hash === '#DEBUG');
+    
     (function ($, undefined) {
-
-      // Put custom repo URL's in this object, keyed by repo name.
+    	
       var repoUrls = {
-        "twemoji": "http://dphan18.github.io/twemoji/",
-        "finagle": "http://dphan18.github.io/finagle/",
-        "hogan.js": "http://dphan18.github.io/hogan.js/",
-        "heron": "http://heronstreaming.io/",
-        "distributedlog": "http://distributedlog.io/",
-        "labella.js": "http://dphan18.github.io/labella.js/",
-        "pants": "http://pantsbuild.github.io/",
-        "scala_school": "http://dphan18.github.io/scala_school/",
-        "finatra": "https://dphan18.github.io/finatra/",
-        "dphan18-server": "http://dphan18.github.io/dphan18-server/",
-        "twisitor": "http://dphan18.github.io/twisitor/",
-        "scrooge": "http://dphan18.github.io/scrooge/",
-        "util": "http://dphan18.github.io/util/",
-        "commons": "http://dphan18.github.io/commons/",
-        "typeahead.js": "http://dphan18.github.io/typeahead.js/",
-        "plumage.js": "http://dphan18.github.io/plumage.js/",
-        "recess": "http://dphan18.github.io/recess/",
-        "iago": "http://dphan18.github.io/iago/",
-        "ospriet": "http://dphan18.github.io/ospriet/"
       };
 
       function repoUrl(repo) {
         return repoUrls[repo.name] || repo.html_url;
-      }
-
-      // Put custom repo descriptions in this object, keyed by repo name.
-      var repoDescriptions = {
-        "naggati2": "A protocol builder for Netty using Scala 2.8"
-      };
-
+      }   
+      
       function repoDescription(repo) {
-        return repoDescriptions[repo.name] || repo.description;
+        desc = repo.description;
+        return desc;
       }
-
-      function addRecentlyUpdatedRepo(repo) {
-        var $item = $("<li>");
-
-        var $name = $("<a>").attr("href", repo.html_url).text(repo.name);
-        $item.append($("<span>").addClass("name").append($name));
-
-        var $time = $("<a>").attr("href", repo.html_url + "/commits").text(strftime("%h %e, %Y", repo.pushed_at));
-        $item.append($("<span>").addClass("time").append($time));
-
-        $item.append('<span class="bullet">&sdot;</span>');
-
-        var $watchers = $("<a>").attr("href", repo.html_url + "/stargazers").text(repo.stargazers_count + " stargazers");
-        $item.append($("<span>").addClass("watchers").append($watchers));
-
-        $item.append('<span class="bullet">&sdot;</span>');
-
-        var $forks = $("<a>").attr("href", repo.html_url + "/network").text(repo.forks_count + " forks");
-        $item.append($("<span>").addClass("forks").append($forks));
-
-        $item.appendTo("#recently-updated-repos");
-      }
-
-      function addRepo(repo) {
-        var $item = $("<li>").addClass("repo grid-1 " + (repo.language || '').toLowerCase());
-        var $link = $("<a>").attr("href", repoUrl(repo)).appendTo($item);
-        $link.append($("<h2>").text(repo.name));
-        $link.append($("<h3>").text(repo.language));
-        $link.append($("<p>").text(repoDescription(repo)));
-        $item.appendTo("#repos");
-      }
-
-      function addRepos(repos, page) {
-        repos = repos || [];
-        page = page || 1;
-
-        var uri = "https://api.github.com/orgs/dphan18/repos?callback=?"
-                + "&per_page=100"
-                + "&page="+page;
-
-        $.getJSON(uri, function (result) {
-          if (result.data && result.data.length > 0) {
-            repos = repos.concat(result.data);
-            addRepos(repos, page + 1);
-          }
-          else {
-            $(function () {
-              $("#num-repos").text(repos.length);
-
-              // Convert pushed_at to Date.
-              $.each(repos, function (i, repo) {
-                repo.pushed_at = new Date(repo.pushed_at);
-
-                var weekHalfLife  = 1.146 * Math.pow(10, -9);
-
-                var pushDelta    = (new Date) - Date.parse(repo.pushed_at);
-                var createdDelta = (new Date) - Date.parse(repo.created_at);
-
-                var weightForPush = 1;
-                var weightForWatchers = 1.314 * Math.pow(10, 7);
-
-                repo.hotness = weightForPush * Math.pow(Math.E, -1 * weekHalfLife * pushDelta);
-                repo.hotness += weightForWatchers * repo.watchers / createdDelta;
-              });
-
-              // Sort by highest # of watchers.
-              repos.sort(function (a, b) {
-                if (a.hotness < b.hotness) return 1;
-                if (b.hotness < a.hotness) return -1;
-                return 0;
-              });
-
-              $.each(repos, function (i, repo) {
-                addRepo(repo);
-              });
-
-              // Sort by most-recently pushed to.
-              repos.sort(function (a, b) {
-                if (a.pushed_at < b.pushed_at) return 1;
-                if (b.pushed_at < a.pushed_at) return -1;
-                return 0;
-              });
-
-              $.each(repos.slice(0, 3), function (i, repo) {
-                addRecentlyUpdatedRepo(repo);
-              });
-            });
-          }
-        });
-      }
-      addRepos();
-
-      //get total number of dphan18 members
-      function getNumMembers(page, numMembers) {
-        var page = page || 1;
-        var numMembers = numMembers || 0;
-        var membersUri = "https://api.github.com/orgs/dphan18/members?callback=?"
-          + "&per_page=100"
-          + "&page="+page;
-
-        $.getJSON(membersUri, function (result) {
-          if (result.data && result.data.length > 0) {
-            numMembers += result.data.length;
-            getNumMembers(page+1, numMembers);
-          } else {
-            $(function () {
-              $("#num-members").text(numMembers);
-            });
-          }
-        });
-      }
-      getNumMembers();
-
-      function randomItem(array) {
-        return array[Math.floor(Math.random() * array.length)];
-      }
-
-      var $flyzone;
-
-      function flyzone() {
-        if (!$flyzone) {
-          $flyzone = $("<div>").attr("id", "flyzone").prependTo(document.body);
+      
+      function addUpdated()
+      {
+      	$("#updated").empty();
+      	for (r=0; r < Math.min(4, updated.length); r++)
+      	{
+      		repo = updated[r];
+          desc = repoDescription(repo);
+          var $uitem = $("<div>").addClass("updated-card col-sm-5 col-md-4 col-lg-3");
+          var $item = $("<div>").addClass("card pin " + (repo.language || '').toLowerCase() + " "+repo.name.toLowerCase());
+          var $link = $("<a>").attr("href", repoUrl(repo)).appendTo($item);
+          $link.append($("<h4>").text(repo.name));
+          $link.append($("<h5>").text((repo.language != null) ? repo.language : ""));
+          $item.append($("<p>").text(desc));
+          $item.appendTo($uitem);
+          $uitem.appendTo("#updated");
         }
+        
+        var d = $("#updated").collapse({
+         toggle: true
+       });
 
-        return $flyzone;
       }
-
-      var sizes = ["smaller", "small", "medium", "large", "fat"];
-
-      var sizeDimensions = {
-        "smaller": 50,
-        "small": 80,
-        "medium": 130,
-        "large": 200,
-        "fat": 300
-      };
-
-      function randomOpacity(threshold) {
-        var opacity = Math.random();
-
-        while (opacity < threshold) {
-          opacity = Math.random();
+      
+      function addAllRepos()
+      {
+      	$("#allrepos").empty();
+      	
+      	for (r=0; r < allrepos.length; r++)
+      	{
+      		repo = allrepos[r];
+          desc = repoDescription(repo);
+          var $item = $("<div>").addClass("card pin col-sm-5 col-md-4 col-lg-3 " + (repo.language || '').toLowerCase() + " "+repo.name.toLowerCase());
+          var $link = $("<a>").attr("href", repoUrl(repo)).appendTo($item);
+          $link.append($("<h4>").html(repo.name + "<div class='org'><a href='"+repo.owner.html_url+"'>("+repo.owner.login+")"));
+          $link.append($("<h5>").text((repo.language != null) ? repo.language : ""));
+          $item.append($("<p>").text(desc));
+          htag = "#allrepos";
+          $item.appendTo(htag);
         }
-
-        return opacity;
+        
+        $(".nrepos").text("("+allrepos.length+")");
+        
+        var d = $("#allrepos").collapse({
+         toggle: true
+       });
+        
       }
 
-      function makeLarry(sizeName, speed) {
-        var size = sizeDimensions[sizeName];
-        var top = Math.floor((flyzone().height() - size) * Math.random());
+      function pushRepo(repos, org) 
+      {
+      	var left = repos; var right = allrepos;
+        var result  = [],
+        il      = 0,
+        ir      = 0;
+        
+        while (il < left.length && ir < right.length){
+         if (left[il].name.toLowerCase() < right[ir].name.toLowerCase()){
+           result.push(left[il++]);
+         } else {
+           result.push(right[ir++]);
+         }
+       }
+       
+       allrepos = result.concat(left.slice(il)).concat(right.slice(ir));
+     }      
+     
+     function mergeUpdated(repos)
+     {
+       var left = repos; var right = updated;
+       var result  = [],
+       il      = 0,
+       ir      = 0;
+       
+       while (il < left.length && ir < right.length){
+        if (left[il].pushed_at > right[ir].pushed_at){
+          result.push(left[il++]);
+        } else {
+          result.push(right[ir++]);
+        }
+      }
+      
+      updated = result.concat(left.slice(il)).concat(right.slice(ir));
+    }
+    
+    function addRepos(orgs, repos, page) {
+     var forks = [];
+     var org = orgs.name;
+     repos = repos || [];
+     page = page || 1;
+     reposcmd = orgs.type === "repo" ? "" : "/repos";
 
-        var $img = $("<img>")
-          .addClass("larry size-" + sizeName)
-          .attr("src", "assets/larry.png")
-          .attr("width", size)
-          .attr("height", size)
-          .css({
-            position: "absolute",
-            opacity: randomOpacity(0.4),
-            top: top,
-            left: -size
-          });
+	   // These client tokens are for a dummy app, and there is no user specific information that we get, so
+	   // all in all, pretty safe to expose this here.
 
-        $img.prependTo(flyzone());
+       // there are three supported request types: org, user and repo. Syntax differs.
+       if((orgs.type !== 'org') && (orgs.type !== 'user') && (orgs.type !== 'repo')) {
+       	  console.log('** Unknown type “'+orgs.type+'” for org “'+org+'” — check “orgs.js” for typo.'); 
+       	  return;
+       }
+       var uri = "https://api.github.com/"+orgs.type+"s/"+org + reposcmd
+       + "?per_page=1000"
+       + "&client_id=1bafa09b6086eec7afb4"
+       + "&client_secret=7e6422a0a2e24f0d0ecb7521a63990b5758c9cc8";
+       $.getJSON(uri, function (result) {
+         if (!Array.isArray(result)) {
+           result = [].concat(result);
+         }
+         if (result && result.length > 0) {
+          repos = repos.concat(result);
 
-        var left = flyzone().width() + size;
+          $(function () {
 
-        $img.animate({left: left}, speed, function () {
-          $img.remove();
-          makeRandomLarry();
+            $.each(repos, function (i, repo) {
+              repo.pushed_at = new Date(repo.pushed_at);
+              if (repo.fork === true) {  // if this is a fork, save the index
+                forks.push(i);
+              }
+            });
+
+            // remove forks from the view
+            $.each(forks, function(i, forkindex) {
+              var indextoremove = forkindex - i; // account for prior splices
+              if(DEBUG) console.log('removing forked entry: ' + repos[indextoremove].full_name);
+              repos.splice(indextoremove,1);
+            });
+
+		// pre sort by how recently the repo was modified
+        repos.sort(function (a, b) {
+          if (a.pushed_at < b.pushed_at) return 1;
+          if (b.pushed_at < a.pushed_at) return -1;
+          return 0;
         });
 
-        return $img;
-      }
+        mergeUpdated(repos);
 
-      function makeRandomLarry() {
-        var size = randomItem(sizes);
-        var speed = Math.floor(Math.random() * 20000) + 15000;
-        return makeLarry(size, speed);
-      }
-
-      $(function () {
-        $("#logo").click(function () {
-          makeRandomLarry();
+        repos.sort(function (a, b) {
+          if (a.name.toLowerCase() > b.name.toLowerCase()) {return 1;}
+          if (b.name.toLowerCase() > a.name.toLowerCase()) {return -1};
+          return 0;
         });
+        pushRepo(repos, org);
+
+        addUpdated();
+        addAllRepos();
+
       });
+        }
+      });
+     }
+     
+     $("<div>").addClass("separator").appendTo("#wrapper");
+     var $sectiontitle = $("<div>").addClass("section-title").appendTo("#wrapper");
+     var $title = $("<span>").addClass('title').text("recent").appendTo($sectiontitle);
+     var $item = $("<div id='updated'>").addClass("columns section collapse");
+     $item.appendTo($sectiontitle);
+     var $twistie = $("<a data-toggle='collapse' data-target='#updated'>").addClass("twistie showdetails");
+     $twistie.appendTo($sectiontitle);
 
-      var match = (/\blarry(=(\d+))?\b/i).exec(window.location.search);
+     $("<div>").addClass("separator gap").appendTo("#wrapper");
+     var $sectiontitle = $("<div>").addClass("section-title").appendTo("#wrapper");
+     var $title = $("<span>").addClass('title').text("repos").appendTo($sectiontitle);
+     var $repos = $("<span>").addClass('nrepos').text("(0)").appendTo($title);
+     var $item = $("<div id='allrepos'>").addClass("columns section collapse");
+     $item.appendTo($sectiontitle);
+     var $twistie = $("<a data-toggle='collapse' data-target='#allrepos'>").addClass("twistie showdetails");
+     $twistie.appendTo($sectiontitle);
 
-      if (match) {
-        var n = parseInt(match[2]) || 20;
+     for (var r in orgs)
+     {
+      addRepos(orgs[r]);
+    }
+    
+    
+    $("<div>").addClass("separator").appendTo("#wrapper");
+    
 
-        $(function () {
-          for (var i = 0; i < n; ++i) {
-            setTimeout(makeRandomLarry, Math.random() * n * 500);
-          }
-        });
+
+  })(jQuery);
+  
+  $('#search').keyup(function() {
+    var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
+    $rows = $(".card")
+    $rows.show().filter(function() {
+      var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
+      return !~text.indexOf(val);
+    }).hide();
+    
+    // update repo count here
+    n = $rows.length;
+    for (r in $rows)
+    {
+    	row = $rows[r];
+    	style = row.style;
+    	if (style && style.cssText && style.cssText.match("none"))
+    	{
+    		n--;
+    	}
+
+    }
+    
+    $rows = $(".updated-card");
+    $rows.show().filter(function() {
+      var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
+      return !~text.indexOf(val);
+    }).hide();
+    
+    m = 4;
+    for (r in $rows)
+    {
+    	row = $rows[r];
+    	style = row.style;
+    	if (style && style.cssText && style.cssText.match("none"))
+    	{
+    		m--;
+    	}
+
+    }
+    
+    $(".nrepos").text("("+(n - m)+")");
+    
+
+    // ---------------------------------
+    // Google Analytics Event Tracking
+    // 
+    // 
+    // usage: add the following attributes to links you want to track:
+    //   data-analytics-category=""    REQUIRED  String   Typically the object that was interacted with (e.g. button)
+    //   data-analytics-action=""      REQUIRED  String   The type of interaction (e.g. click)
+    //   data-analytics-label=""       OPTIONAL  String   Useful for categorizing events (e.g. nav buttons)
+    //   data-analytics-value=""       OPTIONAL  Integer  Values must be non-negative. Useful to pass counts (e.g. 4 times)
+    //
+    // Those are the suggested usages, but you can use the attributes how you want
+    // see https://developers.google.com/analytics/devguides/collection/analyticsjs/events for more details
+    // 
+    // EXAMPLE:
+    // <a href="http://ibm.com" data-analytics-category="Leadspace button" data-analytics-action="To ibm.com">Off you go!</a>
+    // ---------------------------------
+    
+    $('body').on('click', 'a[data-analytics-category][data-analytics-action]', function(e){
+
+      // No analytics? Bail.
+      if ( ! window.ga )
+        return;
+      
+      // for links to external sources, we need a tiny delay to have a little extra time to send to Google's servers before unload
+      // 200ms is about right for enough time
+      if (this.hostname && this.hostname !== location.hostname) {
+        // Stop the link action
+        e.preventDefault();
+        
+        // setTimeout callback is called in the window scope, so cache the url from the link now
+        var url = this.href;
+        
+        // in 200ms, off you go
+        setTimeout(function(){
+          document.location = url;        
+        },200);
       }
-    })(jQuery);
-    </script>
-  </body>
-</html>
+      
+      var $el = $(this),
+          data = {'hitType': 'event'}; // make a new data object 
+          
+      // category (required string)
+      data['eventCategory'] =  $el.attr('data-analytics-category');
+      
+      // action (required string)
+      data['eventAction'] = $el.attr('data-analytics-action');
+      
+      // label (optional string)
+      if ( $el.attr('data-analytics-label') )
+        data['eventLabel'] = $el.attr('data-analytics-label');
+
+      // value (optional int)
+      if ( $el.attr('data-analytics-value') )
+        data['eventValue'] = parseInt( $el.attr('data-analytics-value') );
+
+      // send the data
+      ga('send', data);
+      
+    });
+	// Fix copyright to be the current year.
+	$('#copyright-last-year').text(new Date().getFullYear());
+});
+</script>
+
+
+</body></html>
