@@ -198,11 +198,9 @@ font-family: Helvetica, Arial, Tahoma, sans-serif;
 
 .news .newsEntry
 {
-	font-family:Verdana, Arial, Helvetica, sans-serif;
+        font-family:Verdana, Arial, Helvetica, sans-serif;
         font-size: 100%;
-        font-color: #fff;
         color: #fff;
-        font-color: #fff;
 
 }
 
@@ -210,13 +208,11 @@ div.newsImage
 {
   width:291px;
   height: 321px;
-  background:url(../imgs/kit_left.jpg) no-repeat;
   padding-top: 5px;
 }
 
 div.news
 {
-background:url(../imgs/news.jpg) no-repeat;
   padding: 5px;
   padding-top: 0px;
   width:259px;
@@ -283,7 +279,7 @@ background:url(../imgs/news.jpg) no-repeat;
 	background: transparent;
 	z-index: 1;
 	margin: 0px;
-	width: 100%
+        width: 100%;
 }
 
 #wrapper .updated-card .pin
