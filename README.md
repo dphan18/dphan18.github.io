@@ -1,3 +1,3 @@
-Portal for open source at GitHub.
+# New Project
 
-[Contact us](mailto:hub@jazz.net)
+Starting repository from scratch.
